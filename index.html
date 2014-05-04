@@ -1,10 +1,21 @@
 <html>
   <head>
     <title>Steve Shaffer</title>
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/app.css">
   </head>
-  <body>
-    <h1>Steve Shaffer</h1>
-    <hr>
-    <a href="mailto:shaffers@ucla.edu">shaffers@ucla.edu</a>
+  <body ng-app="portfolio">
+
+    <div id="title">
+      <h1>Steve Shaffer</h1>
+    </div>
+    <ng-view></ng-view>
+    
+    <!--Scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scrtips/controllers.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
