@@ -2,7 +2,7 @@
 
 
 angular.module('portfolio.controllers', [])
-  .controller('ProjectsCtrl', ['$scope', 'Project', function($scope, Project) {
-    //$scope.projects = Project.query();
+  .controller('ProjectsCtrl', ['$scope', function($scope) {
+    $scope.test = 'test';
   }])
 ;

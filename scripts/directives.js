@@ -4,6 +4,12 @@
 angular.module('portfolio.directives', [])
   .directive('project', function() {
     return {
-      template: 'Name: {{project.name}} Description: {{project.description}}'
+      restrict: 'E',
+      templateUrl: 'templates/project.html',
+      scope: {
+        name: '=',
+        description: '='
+      }
     };
+  })
 ;

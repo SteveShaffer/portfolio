@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", "Calibri", "Sans Serif";
+}
+project {
+  display: block;
+  width: 300px;
+  float: left;
+  border: thin black solid;
+  background-color: lightblue;
+  padding: 10px;
+}
+project-name {
+  font-size: 2em;
+  float: left;
+  margin-right: 10px;
+}
